@@ -25,6 +25,7 @@ const LibrarySong = ({
         };
       }
     });
+    console.log('selectedsong')
     setSongs(newSongs)
     //import from another file
     if (isPlaying) audioRef.current.play()
